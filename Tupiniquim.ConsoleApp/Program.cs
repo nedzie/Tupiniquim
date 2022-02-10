@@ -71,12 +71,6 @@ namespace Tupiniquim.ConsoleApp
 
             char[] comandosChar = comandos.ToCharArray(); // Cria um char Arr com o tamanho de "comandos" (MEEMDM)
 
-            //for (int i = 0; i < comandos.Length; i++)
-            //{
-            //    comandosChar[i] = comandos[i]; // Atribui a 'i' letra da string à 'i' posição do char Arr
-            //}
-
-
             #endregion
 
             #region Processamento dos comandos de direção
@@ -135,7 +129,7 @@ namespace Tupiniquim.ConsoleApp
                     {
                         if (sentido == 'N') // Se estiver olhando pro norte (cima)
                         {
-                            posicaoAtualY++; // Avance y+1
+                                posicaoAtualY++; // Avance y+1
                         }
                         else if (sentido == 'S') // Se estiver olhando pro sul (baixo)
                         {
